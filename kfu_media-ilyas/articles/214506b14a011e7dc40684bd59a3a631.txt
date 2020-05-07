@@ -1,0 +1,120 @@
+title: Всероссийские судебные дебаты 2020
+author: 
+
+ 
+ 
+          $(document).ready(
+             function (){$("#pikame").PikaChoose({carousel:true, autoPlay:false, startOn:0});});
+        
+
+         li.active{ border:3px solid #00e2df !important;}
+                #pikame li.jcarousel-item{ border: 3px solid white;}
+                .caption {color:white;}
+                .pika-stage img{ height: 568px; margin: 0px 0px; padding: 0px 0px; }
+                .clip img{cursor:pointer;} 
+        
+
+
+
+       
+        jQuery(document).ready(function() {
+ jQuery('#jcarousel').jcarousel({
+        wrap: 'circular'
+                            });
+                        });
+        
+ 
+   
+     #dim{ position:absolute; top:0; left:0; width:100%; z-index:102; background: url('https://shelly.kpfu.ru/pdf/picture/mainpage_new/dim.png'); display:none; text-align:left; }
+     .msgbox{ position:absolute; width:300px; height:200px; z-index:200; border:5px solid #222; background: #FFF; top: 50%; left: 50%; margin-top: -100px; margin-left: -150px; }
+     .msgbox img {border:none; margin:5px;}
+     .close{ top:0px; float:right; }
+  
+  
+  
+    function alert_faculty(vid){
+    var vHeight=$(window).scrollTop();
+    var vWidth=$(window).width()/2;
+    $("#dim_content").css({"top": vHeight+$(window).height()/20, "left": vWidth-440});
+    $("#dim").css("height", $(document).height());
+    $("#dim").css("width", $(document).width());
+        
+    $("#dim").fadeIn();
+    $("#popup_div").empty();
+    $.post('https://kpfu.ru/content_list_for_slider', {p_cid: vid}, 
+        function(data){
+        $("#popup_div").html(data);
+        $("#pikame").PikaChoose({carousel:true, autoPlay:false, startOn:0});});
+      
+     return false; 
+     };
+     
+    $(document).ready(function(){
+    
+     
+     
+     
+    
+
+    $(".close").click(function(){
+    $("#dim").fadeOut();
+    return false;
+    });
+    });
+
+    $(window).bind("resize", function(){
+    $("#dim").css("height", $(window).height());
+    });
+
+
+function openphoto(vid){
+ var vHeight=$(window).scrollTop();
+        var vWidth=$(window).width()/2;
+        $("#dim_content").css({"top": vHeight+$(window).height()/20, "left": vWidth-440});
+        $("#dim").css("height", $(document).height());
+        $("#dim").css("width", $(document).width());
+        
+        $("#dim").fadeIn();
+        $("#popup_div").empty();
+        $.post('https://kpfu.ru/content_list_for_slider', {p_cid: '388775', p_sub:  '220'}, 
+            function(data){
+            $("#popup_div").html(data);
+            $("#pikame").PikaChoose({carousel:true, autoPlay:false, startOn:vid});});
+          
+        return false; 
+}
+  
+
+
+
+
+
+
+
+
+
+date: 26.04.2020 00:00:00
+text: <div style="margin-top:10px;min-height:1px;">
+<img src="/portal/docs/F_1875333520/d8iFPaOupag.jpg" alt="Всероссийские судебные дебаты 2020 ,Всероссийские судебные дебаты, Юридический факультет, финал" title="Всероссийские судебные дебаты 2020 ,Всероссийские судебные дебаты, Юридический факультет, финал" class="left_inner_width" style="min-height:1px;">
+</div><div align="justify" style="padding-top:10px;">
+<div class="visit_link">
+<p><strong>Финал</strong> "Всероссийских судебных дебатов 2020" состоится <strong>27 апреля 2020 года </strong>с использованием программы Zoom.</p>
+<p>Несмотря на то, что Юридический факультет КФУ принял решение провести заключительный этап в дистанционном формате, система профессионального судейства сохраняется. В видеоконференцсвязи примут участие практикующие юристы: судьи, адвокаты, следователи. Ряды судей пополнят и преподаватели Юридического факультета КФУ — кандидаты и доктора юридических наук.</p>
+<p>Судьи секции Административного судопроизводства: руководитель научно-исследовательской работы студентов Юридического факультета КФУ, адвокат Адвокатской палаты Республики Татарстан Лукин Юрий Михайлович и старший преподаватель кафедры экологического, трудового права и гражданского процесса Юридического факультета КФУ, кандидат юридических наук Хасаншин Рамиль Ильгизович:</p>
+<p>ссылка для присоединения к конференции в Zoom: https://us02web.zoom.us/j/83775662432.</p>
+<p>Судьи секции Гражданского судопроизводства: заместитель декана по научной деятельности Юридического факультета КФУ, доктор юридических наук, профессор, Валеев Дамир Хамитович, председатель судебного состава гражданской коллегии Верховного Суда Республики Татарстан в отставке, кандидат юридических наук, Шакирьянов Рафаиль Валиевич:</p>
+<p>ссылка для присоединения к конференции в Zoom: https://us02web.zoom.us/j/89518459619.</p>
+<p>Судьи секции Уголовного судопроизводства: судьи Верховного суда Республики Татарстан и заведующий кафедры уголовного процесса и криминалистики Юридического факультета КФУ Антонов Игорь Олегович:</p>
+<p>ссылка для присоединения к конференции в Zoom: https://us02web.zoom.us/j/84034599323.</p>
+<p>Судьи секции Конституционного судопроизводства: ведущий советник Научно-аналитического отдела аппарата Конституционного суда Республики Татарстан Садыков Рустам Саматович и заведующий кафедры конституционного и административного права Юридического факультета КФУ Султанов Евгений Батырович:</p>
+<p>ссылка для присоединения к конференции в Zoom: https://us02web.zoom.us/j/84469974949.</p>
+<p>Призовой фонд финала студенческого модельного судебного процесса «Всероссийские судебные дебаты 2020» составит 12.000 рублей, средства которого будут реализованы на подарочные сертификаты командам-победителям на приобретение научной литературы.</p>
+<p>По итогам модельного процесса «Всероссийские судебные дебаты» будет издан сборник письменных работ команд с присвоением всех необходимых выходных данных (УДК, ББК, ISBN).</p>
+<p>Также со всеми документами желающие могут ознакомиться в официальном интернет-сообществе модельного процесса по адресу http://vk.com/debatikfu.</p>
+<p><a data-cke-saved-href="https://kpfu.ru/portal/docs/F_203746433/VSD_2020_Predvaritelnaya_programma_1.docx" href="https://kpfu.ru/portal/docs/F_203746433/VSD_2020_Predvaritelnaya_programma_1.docx">Предварительная программа финала</a></p>
+<p><br></p>
+<p>Подробности о том, как проходили этапы Всероссийских судебных дебатов, можно узнать в информационном письме.</p>
+<p><a data-cke-saved-href="https://kpfu.ru/portal/docs/F140831185/VSD_2020_Informatsionnoe_pismo.docx" href="https://kpfu.ru/portal/docs/F140831185/VSD_2020_Informatsionnoe_pismo.docx">Информационное письмо</a></p>
+</div>
+      </div>
+link: https://kpfu.ru/law/vserossijskie-sudebnye-debaty-2020-388775.html

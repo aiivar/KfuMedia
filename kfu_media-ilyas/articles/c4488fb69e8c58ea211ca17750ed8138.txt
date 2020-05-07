@@ -1,0 +1,88 @@
+title: Топ 6 источников для изучения Java
+author: 
+
+
+
+Ключевые слова: 
+Высшая школа ИТИС, 
+Java, 
+Марсель Сидиков
+
+
+
+ 22
+
+
+      
+      function like_it(vid,v_ball,v_com){
+      
+       $.post("https://kpfu.ru/like_it", {p_id: vid,p_like: 1,p_ball: v_ball, p_comment_id:v_com} , function(data) {
+        $('#span_like'+vid+v_com).empty();
+        $('#span_likem'+vid+v_com).empty();
+        $('#span_like'+vid+v_com).html(data);
+      
+        });
+      }
+            
+
+ 
+ 
+
+     
+     
+
+
+Образование
+Наука
+Руководство
+Конкурсы
+Студенческая жизнь
+Международное
+Культура
+Спорт
+Сотрудничество
+Новости приема
+
+
+    
+    
+        #mc_embed_signup{background:none; clear:left; font:14px Helvetica,Arial,sans-serif; }
+        /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+           We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+    
+    
+    
+        
+        Подпишитесь на нашу рассылку
+        
+        
+        
+        
+        
+    
+    
+    
+
+date: 17.04.2020 00:00:00
+text: <div style="margin-top:10px;min-height:1px;">
+<img src="/portal/docs/F_38744308/photo_2020_04_13_19_16_17.jpg" alt="Подборка из 6 источников для самостоятельного изучения Java ,Высшая школа ИТИС, Java, Марсель Сидиков" title="Подборка из 6 источников для самостоятельного изучения Java ,Высшая школа ИТИС, Java, Марсель Сидиков" class="left_inner_width" style="min-height:1px;">
+</div><div align="justify" style="padding-top:10px;">
+<div class="visit_link">
+<p>Мы снова к вам с полезным топом и, нам кажется, это один из самых ожидаемых запросов. Своим списком для самостоятельного изучения поделился Марсель Сидиков — руководитель лаборатории JavaLab Высшей школы ИТИС</p>
+
+<p>1. Стив Макконнелл "Совершенный код"</p>
+
+<p>2. Роберт Мартин "Чистый код: создание, анализ и рефакторинг"</p>
+
+<p>3. Лакман Макдауэлл Г. "Карьера программиста"</p>
+
+<p>4. Фаулер Мартин, Райс Дейвид "Шаблоны корпоративных приложений"</p>
+
+<p>5. Блох Дж. "Java. Эффективное программирование"</p>
+
+<p>6. google.com :)</p>
+
+<p>Гугл в помощь, как говорится!)</p>
+</div>
+      </div>
+link: https://kpfu.ru/itis/podborka-iz-6-istochnikov-dlya-samostoyatelnogo.html

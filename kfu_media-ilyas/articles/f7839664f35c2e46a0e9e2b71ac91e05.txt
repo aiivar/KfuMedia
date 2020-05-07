@@ -1,0 +1,96 @@
+title: Всероссийский конкурс социальных проектов "Инносоциум"
+author: 
+
+
+
+Ключевые слова: 
+Всероссийский конкурс социальных проектов «Инносоциум»
+
+
+
+ 34
+
+
+      
+      function like_it(vid,v_ball,v_com){
+      
+       $.post("https://kpfu.ru/like_it", {p_id: vid,p_like: 1,p_ball: v_ball, p_comment_id:v_com} , function(data) {
+        $('#span_like'+vid+v_com).empty();
+        $('#span_likem'+vid+v_com).empty();
+        $('#span_like'+vid+v_com).html(data);
+      
+        });
+      }
+            
+
+ 
+ 
+
+     
+     
+
+
+Образование
+Наука
+Руководство
+Конкурсы
+Студенческая жизнь
+Международное
+Культура
+Спорт
+Сотрудничество
+Новости приема
+
+
+    
+    
+        #mc_embed_signup{background:none; clear:left; font:14px Helvetica,Arial,sans-serif; }
+        /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+           We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+    
+    
+    
+        
+        Подпишитесь на нашу рассылку
+        
+        
+        
+        
+        
+    
+    
+    
+
+date: 28.04.2020 00:00:00
+text: <div style="margin-top:10px;min-height:1px;">
+<img src="/portal/docs/F_556631706/BJhAq3eIb8s.jpg" alt="Всероссийский конкурс социальных проектов 'Инносоциум' ,Всероссийский конкурс социальных проектов «Инносоциум»" title="Всероссийский конкурс социальных проектов 'Инносоциум' ,Всероссийский конкурс социальных проектов «Инносоциум»" class="left_inner_width" style="min-height:1px;">
+</div><div align="justify" style="padding-top:10px;">
+<div class="visit_link">
+<p>30 апреля заканчивается прием заявок на участие во втором сезоне Всероссийского конкурса социальных проектов «Инносоциум». В преддверии этого 28 апреля в 20:00 (мск) пройдет онлайн трансляция с партнерами номинаций конкурса.<br>
+<br>
+Гости эфира расскажут подробнее про каждую из номинаций и на что будут обращать внимание при оценке проектов, поделятся опытом реализации идей, ответят на оставшиеся вопросы аудитории. А также познакомят с новым креативным проектом “ART TEAM”.<br>
+Вопросы спикерам можно отправить заранее в социальных сетях или на почту <a href="mailto:info@innosocium.ru">info@innosocium.ru</a>.<br>
+<br>
+Спикеры эфира 28 апреля 2020 года:</p>
+
+<ul class="menu_list">
+	<li class="li_spec">Марьяна Золина. Руководитель культурной платформы АРТ-ОКНО, Благотворительного Фонда «Искусство, наука и спорт». Номинация «Культура: региональные инициативы»;</li>
+	<li class="li_spec"> Ирина Кузьмина. Заместитель руководителя центра молодежных инициатив Агентства стратегических инициатив. Номинация «Молодежное предпринимательство»;</li>
+	<li class="li_spec">Кристина Филипповская. Заместитель руководителя социальной платформы Фонда Росконгресс. Номинация «Бережем старших»;</li>
+	<li class="li_spec">Дарья Масловская. Директор по персоналу Royal Canin Россия и Республика Беларусь, подразделение MARS. Номинация «Женское лидерство»;</li>
+	<li class="li_spec">Андрей Клименко. Руководитель направления по корпоративной социальной ответственности ЕВРАЗа. Номинация «Развитие территорий»;</li>
+	<li class="li_spec">Марина Абрамова. Директор ФГБУ «РОСКУЛЬТЦЕНТР» («Центр поддержки молодежных творческих инициатив») — о креативной инициативе “ART TEAM”.<br>
+	Модератор: Артем Метелев, Председатель совета ассоциации волонтерских центров<br>
+	<br>
+	Подать заявку на участие в конкурсе можно <a href="https://innosocium.ru/participation/">здесь</a>.<br>
+	<br>
+	Присоединяйся к прямому эфиру на сайте или в социальных сетях:<br>
+	<a href="https://vk.com/innosocium">https://vk.com/innosocium</a><br>
+	<a href="https://vk.com/away.php?to=https%3A%2F%2Fwww.facebook.com%2Finnosocium.ru%2F&amp;post=-18477997_14373&amp;cc_key=" target="_blank">https://www.facebook.com/innosocium.ru/</a><br>
+	<a href="https://vk.com/away.php?to=https%3A%2F%2Fwww.instagram.com%2Finnosocium.ru%2F&amp;post=-18477997_14373&amp;cc_key=" target="_blank">https://www.instagram.com/innosocium.ru/</a><br>
+	<a href="https://vk.com/away.php?to=https%3A%2F%2Fwww.youtube.com%2Fchannel%2FUCBqRwuIQL0q8honfL5uKIFg%2F&amp;post=-18477997_14373&amp;cc_key=" target="_blank">https://www.youtube.com/channel/UCBqRwuIQL0q8honfL5uK..</a>
+</li>
+</ul>
+</div>
+      </div>
+link: https://kpfu.ru/philology-culture/vserossijskij-konkurs-socialnyh-proektov-388890.html

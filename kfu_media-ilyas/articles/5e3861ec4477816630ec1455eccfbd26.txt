@@ -1,0 +1,56 @@
+title: Юрклиника продолжает работу
+author: 
+
+
+
+Ключевые слова: 
+Юр. клиника, 
+консультации, 
+он-лайн
+
+
+
+ 25
+
+
+
+Образование
+Наука
+Руководство
+Конкурсы
+Студенческая жизнь
+Международное
+Культура
+Спорт
+Сотрудничество
+Новости приема
+
+
+    
+    
+        #mc_embed_signup{background:none; clear:left; font:14px Helvetica,Arial,sans-serif; }
+        /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+           We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+    
+    
+    
+        
+        Подпишитесь на нашу рассылку
+        
+        
+        
+        
+        
+    
+    
+    
+
+date: 21.04.2020 00:00:00
+text: <div style="margin-top:10px;min-height:1px;">
+<img src="/portal/docs/F_124475419/WhatsApp.Image.2020_04_17.at.22.08.23.jpg" alt="Юрклиника продолжает работу ,Юр. клиника, консультации, он-лайн" title="Юрклиника продолжает работу ,Юр. клиника, консультации, он-лайн" class="left_inner_width" style="min-height:1px;">
+</div><div align="justify" style="padding-top:10px;">
+<div class="visit_link">
+<p>  </p>
+</div>
+      </div>
+link: https://kpfu.ru/law/jurklinika-prodolzhaet-rabotu-388591.html

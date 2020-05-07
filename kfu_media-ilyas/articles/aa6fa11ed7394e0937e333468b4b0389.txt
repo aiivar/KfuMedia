@@ -1,0 +1,23 @@
+title: Топ 5 ссылок для изучения iOS
+author: Источник информации: Алия Сафина, Алия Бадыгова
+date: 23.04.2020 00:00:00
+text: <div style="margin-top:10px;min-height:1px;">
+<img src="/portal/docs/F1939382177/photo_2020_04_22_13_37_55.jpg_1.jpg" alt="Топ 5 ссылок для изучения iOS ,Высшая школа ИТИС, мобильная разработка, Ильдар Залялов, iOS" title="Топ 5 ссылок для изучения iOS ,Высшая школа ИТИС, мобильная разработка, Ильдар Залялов, iOS" class="left_inner_width" style="min-height:1px;">
+</div><div align="justify" style="padding-top:10px;">
+<div class="visit_link">
+<p>Вы ждали новый топ для саморазвития? Мы его сделали! Сегодня разместим список интересных ресурсов от преподавателя лаборатории мобильных разработок Ильдара  Залялова для изучения операционной системы  iOS. Сохраняйте!</p>
+
+<p>* Туториалы от Raywenderlich -  <a href="https://www.raywenderlich.com/">https://www.raywenderlich.com/</a></p>
+
+<p>* Статьи для новичков и не только от NSHipster - <a href="http://https://nshipster.com/">https://nshipster.com/</a></p>
+
+<p>* Обновляемая документация на русском по Swift от Swiftbook - <a href="https://swiftbook.ru/contents/doc/">https://swiftbook.ru/contents/doc/</a></p>
+
+<p>* Подкаст по различным аспектам мобильной разработки Podlodka - <a href="https://soundcloud.com/podlodka">https://soundcloud.com/podlodka</a></p>
+
+<p>* Видеолекции с пар нашей лаборатории: - <a href="https://www.youtube.com/playlist?list=PL6WGVnrRLVRdXZnonDHzkkBX9lj1jeczN">https://www.youtube.com/playlist?list=PL6WGVnrRLVRdXZnonDHzkkBX9lj1jeczN</a></p>
+
+<p>Уже в следующем материале будет топчик для поклонников Android. Будете ждать?</p>
+</div>
+      </div>
+link: https://kpfu.ru/itis/top-5-ssylok-dlya-izucheniya-ios-388655.html

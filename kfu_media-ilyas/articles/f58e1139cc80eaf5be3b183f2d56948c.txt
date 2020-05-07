@@ -1,0 +1,23 @@
+title: Топ 5 ссылок для изучения Android
+author: Источник информации: Алия Сафина, Алия Бадыгова
+date: 28.04.2020 00:00:00
+text: <div style="margin-top:10px;min-height:1px;">
+<img src="/portal/docs/F1073632300/QC2mwf5VNAE._1_.jpg" alt="Топ 5 ссылок для изучения Android ,Высшая школа ИТИС, мобильная разработка, Android, Kotlin, Udacity" title="Топ 5 ссылок для изучения Android ,Высшая школа ИТИС, мобильная разработка, Android, Kotlin, Udacity" class="left_inner_width" style="min-height:1px;">
+</div><div align="justify" style="padding-top:10px;">
+<div class="visit_link">
+<p>По вечерам еще прохладно, поэтому мы к вам с согревающей фотографией и новыми топовыми ссылками от преподавателя лаборатории мобильных разработок Наиля Шайхразиева для изучения операционной системы Android:<br>
+<br>
+Книги для изучения котлина: <br>
+<img alt="📌" src="https://vk.com/emoji/e/f09f938c.png" style="height:16px; margin:0px 1px; width:16px"><a href="https://www.manning.com/books/kotlin-in-action">Kotlin in Action. </a>Дмитрий Джемеров и Светлана Исакова <br>
+<img alt="📌" src="https://vk.com/emoji/e/f09f938c.png" style="height:16px; margin:0px 1px; width:16px"><a href="https://codernet.ru/books/kotlin/kotlin_programmirovanie_dlya_professionalov/">Kotlin.Программирование для профессионалов. </a>Дж. Скин, Д. Гринхол <br>
+<br>
+<img alt="📌" src="https://vk.com/emoji/e/f09f938c.png" style="height:16px; margin:0px 1px; width:16px">Архитектура от дядюшки Боба/ <a href="https://www.labirint.ru/books/634082/">Роберт Мартин: Чистая архитектура. Искусство разработки программного обеспечения </a><br>
+<br>
+<img alt="📌" src="https://vk.com/emoji/e/f09f938c.png" style="height:16px; margin:0px 1px; width:16px">Курсы от юдасити: <br>
+* A<a href="https://www.udacity.com/course/advanced-android-with-kotlin--ud940">dvanced Android with Kotlin</a> <br>
+* <a href="https://www.udacity.com/course/developing-android-apps-with-kotlin--ud9012">Developing Android Apps with Kotlin</a> <br>
+<br>
+ </p>
+</div>
+      </div>
+link: https://kpfu.ru/itis/top-5-ssylok-dlya-izucheniya-android-388887.html

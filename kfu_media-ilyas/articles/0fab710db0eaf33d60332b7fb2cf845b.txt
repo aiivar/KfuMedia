@@ -1,0 +1,26 @@
+title: Топ 6 самых полезных ресурсов для изучения GameDev
+author: Источник информации: Алия Бадыгова (ITIS media)
+date: 06.04.2020 00:00:00
+text: <div style="margin-top:10px;min-height:1px;">
+<img src="/portal/docs/F1550077219/264411754_406777.jpg" alt="Топ 6 самых полезных ресурсов для изучения GameDev ,Высшая школа ИТИС, DML, GameDev, GameDev in Kazan, Мурад Хафизов" title="Топ 6 самых полезных ресурсов для изучения GameDev ,Высшая школа ИТИС, DML, GameDev, GameDev in Kazan, Мурад Хафизов" class="left_inner_width" style="min-height:1px;">
+</div><div align="justify" style="padding-top:10px;">
+<div class="visit_link">
+<p>Сегодня у наших студентов и преподавателей первый учебный день после недельных каникул. Мы снова в строю,пусть и пока дистанционно. За это время мы подготовили для вас новый топ. И если вы давно хотели погрузиться в мир GameDev, технический директор Digital Media Lab Высшей школы ИТИС Мурад Хафизов поделился своим списком ресурсов по теме. Кстати, это очень символично, ведь ровно год назад 6 апреля 2019 года мы открывали конференцию GameDev in Kazan. </p>
+
+<ol>
+	<li class="li_spec">Ресурс по движку Unity (Premium на 3 месяца сейчас бесплатный!) - <a href="https://vk.com/away.php?to=http%3A%2F%2Flearn.unity.com&amp;cc_key=" target="_blank">learn.unity.com</a> <a href="https://vk.com/away.php?to=https%3A%2F%2Flearn.unity.com%2F&amp;cc_key=" target="_blank">https://learn.unity.com/</a>
+</li>
+	<li class="li_spec">Для CG/GameDev программистов - YouTube-канал Infallible Code - <a href="https://vk.com/away.php?to=https%3A%2F%2Fwww.youtube.com%2Fuser%2Fcharlesamat&amp;cc_key=" target="_blank">https://www.youtube.com/user/charlesamat</a>
+</li>
+	<li class="li_spec">Для Unity разработчиков - YouTube-канал Code Monkey - <a href="https://vk.com/away.php?to=https%3A%2F%2Fwww.youtube.com%2Fchannel%2FUCFK6NCbuCIVzA6Yj1G_Z&amp;cc_key=" target="_blank">https://www.youtube.com/channel/UCFK6NCbuCIVzA6Yj1G_Z</a>..</li>
+	<li class="li_spec">Официальный канал движка Unity - YouTube-канал Unity - <a href="https://vk.com/away.php?to=https%3A%2F%2Fwww.youtube.com%2Fchannel%2FUCG08EqOAXJk_YXPDsAvR&amp;cc_key=" target="_blank">https://www.youtube.com/channel/UCG08EqOAXJk_YXPDsAvR</a>.</li>
+	<li class="li_spec">Официальный канал движка Unreal - YouTube-канал Unreal Engine - <a href="https://vk.com/away.php?to=https%3A%2F%2Fwww.youtube.com%2Fchannel%2FUCBobmJyzsJ6Ll7UbfhI4&amp;cc_key=" target="_blank">https://www.youtube.com/channel/UCBobmJyzsJ6Ll7UbfhI4</a>..</li>
+	<li class="li_spec">Сайт с глубоким погружением в C# в контексте Unity - <a href="https://vk.com/away.php?to=http%3A%2F%2Fjacksondunstan.com&amp;cc_key=" target="_blank">jacksondunstan.com</a> <a href="https://vk.com/away.php?to=https%3A%2F%2Fjacksondunstan.com%2F&amp;cc_key=" target="_blank">https://jacksondunstan.com/</a>
+</li>
+</ol>
+
+<p><br>
+Сохраняй и изучай!</p>
+</div>
+      </div>
+link: https://kpfu.ru/itis/top-6-samyh-poleznyh-resursov-dlya-izucheniya.html

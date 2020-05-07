@@ -1,0 +1,101 @@
+title: Алиса в Деревне Универсиады
+author: 
+
+ 
+ 
+          $(document).ready(
+             function (){$("#pikame").PikaChoose({carousel:true, autoPlay:false, startOn:0});});
+        
+
+         li.active{ border:3px solid #00e2df !important;}
+                #pikame li.jcarousel-item{ border: 3px solid white;}
+                .caption {color:white;}
+                .pika-stage img{ height: 568px; margin: 0px 0px; padding: 0px 0px; }
+                .clip img{cursor:pointer;} 
+        
+
+
+
+       
+        jQuery(document).ready(function() {
+ jQuery('#jcarousel').jcarousel({
+        wrap: 'circular'
+                            });
+                        });
+        
+ 
+   
+     #dim{ position:absolute; top:0; left:0; width:100%; z-index:102; background: url('https://shelly.kpfu.ru/pdf/picture/mainpage_new/dim.png'); display:none; text-align:left; }
+     .msgbox{ position:absolute; width:300px; height:200px; z-index:200; border:5px solid #222; background: #FFF; top: 50%; left: 50%; margin-top: -100px; margin-left: -150px; }
+     .msgbox img {border:none; margin:5px;}
+     .close{ top:0px; float:right; }
+  
+  
+  
+    function alert_faculty(vid){
+    var vHeight=$(window).scrollTop();
+    var vWidth=$(window).width()/2;
+    $("#dim_content").css({"top": vHeight+$(window).height()/20, "left": vWidth-440});
+    $("#dim").css("height", $(document).height());
+    $("#dim").css("width", $(document).width());
+        
+    $("#dim").fadeIn();
+    $("#popup_div").empty();
+    $.post('https://kpfu.ru/content_list_for_slider', {p_cid: vid}, 
+        function(data){
+        $("#popup_div").html(data);
+        $("#pikame").PikaChoose({carousel:true, autoPlay:false, startOn:0});});
+      
+     return false; 
+     };
+     
+    $(document).ready(function(){
+    
+     
+     
+     
+    
+
+    $(".close").click(function(){
+    $("#dim").fadeOut();
+    return false;
+    });
+    });
+
+    $(window).bind("resize", function(){
+    $("#dim").css("height", $(window).height());
+    });
+
+
+function openphoto(vid){
+ var vHeight=$(window).scrollTop();
+        var vWidth=$(window).width()/2;
+        $("#dim_content").css({"top": vHeight+$(window).height()/20, "left": vWidth-440});
+        $("#dim").css("height", $(document).height());
+        $("#dim").css("width", $(document).width());
+        
+        $("#dim").fadeIn();
+        $("#popup_div").empty();
+        $.post('https://kpfu.ru/content_list_for_slider', {p_cid: '387452', p_sub:  '5099'}, 
+            function(data){
+            $("#popup_div").html(data);
+            $("#pikame").PikaChoose({carousel:true, autoPlay:false, startOn:vid});});
+          
+        return false; 
+}
+  
+
+
+
+
+
+
+date: 21.03.2020 00:00:00
+text: <div style="margin-top:10px;min-height:1px;">
+<img src="/portal/docs/F_1094092157/IMG_20200321_225245_527.jpg" alt="Алиса в Деревне Универсиады ,Высшая школа ИТИС, студенты, конкурс" title="Алиса в Деревне Универсиады ,Высшая школа ИТИС, студенты, конкурс" class="left_inner_width" style="min-height:1px;">
+</div><div align="justify" style="padding-top:10px;">
+<div class="visit_link">
+<p>Наши студенты на унывают на дистанционном обучении. 17 марта прошел конкурс "Лучшая комната Деревни Универсиады". Дом студентов Высшей школы ИТИС выбрал темой выступления известную всем сказку "Алиса в стране чудес". Гостей встречали Чеширский Кот, Белый Кролик, близнецы Траляля и Труляля, Гусеница, Шляпник, Красная Королева и ее стражники. Вместе с этими героями жюри узнали изложенную в стихах историю этого волшебного мира, а после сразились с монстром - Бармаглотом. В честь победы над ним, гостей накормили пирожными "съешь меня". Судьи оценили такой перфоманс, ребята из комнаты 208 и студенческого актива дома постарались на славу. Молодцы!</p>
+</div>
+      </div>
+link: https://kpfu.ru/itis/alisa-v-derevne-universiady-387452.html

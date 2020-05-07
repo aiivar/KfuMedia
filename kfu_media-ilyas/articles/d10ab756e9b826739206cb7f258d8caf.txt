@@ -1,0 +1,104 @@
+title: Встреча будущих маркетологов с представителем банковского сектора республики Татарстан Антоном Вадимовичем Вассерманом
+author: 
+
+ 
+ 
+          $(document).ready(
+             function (){$("#pikame").PikaChoose({carousel:true, autoPlay:false, startOn:0});});
+        
+
+         li.active{ border:3px solid #00e2df !important;}
+                #pikame li.jcarousel-item{ border: 3px solid white;}
+                .caption {color:white;}
+                .pika-stage img{ height: 568px; margin: 0px 0px; padding: 0px 0px; }
+                .clip img{cursor:pointer;} 
+        
+
+
+
+       
+        jQuery(document).ready(function() {
+ jQuery('#jcarousel').jcarousel({
+        wrap: 'circular'
+                            });
+                        });
+        
+ 
+   
+     #dim{ position:absolute; top:0; left:0; width:100%; z-index:102; background: url('https://shelly.kpfu.ru/pdf/picture/mainpage_new/dim.png'); display:none; text-align:left; }
+     .msgbox{ position:absolute; width:300px; height:200px; z-index:200; border:5px solid #222; background: #FFF; top: 50%; left: 50%; margin-top: -100px; margin-left: -150px; }
+     .msgbox img {border:none; margin:5px;}
+     .close{ top:0px; float:right; }
+  
+  
+  
+    function alert_faculty(vid){
+    var vHeight=$(window).scrollTop();
+    var vWidth=$(window).width()/2;
+    $("#dim_content").css({"top": vHeight+$(window).height()/20, "left": vWidth-440});
+    $("#dim").css("height", $(document).height());
+    $("#dim").css("width", $(document).width());
+        
+    $("#dim").fadeIn();
+    $("#popup_div").empty();
+    $.post('https://kpfu.ru/content_list_for_slider', {p_cid: vid}, 
+        function(data){
+        $("#popup_div").html(data);
+        $("#pikame").PikaChoose({carousel:true, autoPlay:false, startOn:0});});
+      
+     return false; 
+     };
+     
+    $(document).ready(function(){
+    
+     
+     
+     
+    
+
+    $(".close").click(function(){
+    $("#dim").fadeOut();
+    return false;
+    });
+    });
+
+    $(window).bind("resize", function(){
+    $("#dim").css("height", $(window).height());
+    });
+
+
+function openphoto(vid){
+ var vHeight=$(window).scrollTop();
+        var vWidth=$(window).width()/2;
+        $("#dim_content").css({"top": vHeight+$(window).height()/20, "left": vWidth-440});
+        $("#dim").css("height", $(document).height());
+        $("#dim").css("width", $(document).width());
+        
+        $("#dim").fadeIn();
+        $("#popup_div").empty();
+        $.post('https://kpfu.ru/content_list_for_slider', {p_cid: '97172', p_sub:  '5102'}, 
+            function(data){
+            $("#popup_div").html(data);
+            $("#pikame").PikaChoose({carousel:true, autoPlay:false, startOn:vid});});
+          
+        return false; 
+}
+  
+
+
+
+
+
+
+date: 17.10.2014 00:00:00
+text: <div style="margin-top:10px;min-height:1px;">
+<img src="/portal/docs/F444213710/image.jpg" alt="Встреча будущих маркетологов с представителем банковского сектора республики Татарстан Антоном Вадимовичем Вассерманом" title="Встреча будущих маркетологов с представителем банковского сектора республики Татарстан Антоном Вадимовичем Вассерманом" class="left_inner_width" style="min-height:1px;">
+</div><div align="justify" style="padding-top:10px;">
+<div class="visit_link">
+<p>Встреча будущих маркетологов с представителем банковского сектора республики Татарстан Антоном Вадимовичем Вассерманом</p>
+<p> </p>
+<p>В рамках дисциплины «Маркетинг в отраслях и сферах деятельности» состоялась встреча студентов 4 курса Института управления, экономики и финансов с начальником Управления розничного маркетинга Департамента розничного бизнеса Ак барс банка Антоном Вассерманом. Антон Вадимович изложил о тенденциях банковского сектора республики Татарстан, о деятельности основных игроков на татарстанском рынке. Акцентировал внимание на основных конкурентных преимуществах Ак барс банка в розничном бизнесе. Подробно рассказал об особенностях организации маркетинговой деятельности в банке. По мнению Антона Вассермана будущее в банковском секторе за информационными технологиями, пользователями социальных сетей для удобства и удаленного использования всех услуг и покупок товаров.</p>
+<p>Им было отмечено, что Ак барс банк первый из банков РТ, кто успешно внедрил технологию бесконтактной оплаты во время Универсиады 2013. Встреча проходила в формате диалога с представителем бизнес –сообществ, студенты проявили особый интерес к банковскому сектору республики Татарстан.﻿﻿</p>
+</div>
+      </div>
+link: https://kpfu.ru/finance-economy/vstrecha-buduschih-marketologov-s-predstavitelem.html

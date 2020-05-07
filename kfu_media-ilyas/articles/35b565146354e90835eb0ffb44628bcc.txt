@@ -1,0 +1,11 @@
+title: Наша гордость!
+author: Источник информации: Пресс-центр IT-лицея КФУ
+date: 28.04.2020 00:00:00
+text: <div style="margin-top:10px;min-height:1px;">
+<img src="/portal/docs/F47184708/623f54be_29df_4d0f_be04_12bfb39d8477.jpg" alt="Наша гордость! ,IT-лицей, информатика, Сириус." title="Наша гордость! ,IT-лицей, информатика, Сириус." class="left_inner_width" style="min-height:1px;">
+</div><div align="justify" style="padding-top:10px;">
+<div class="visit_link">
+<p>Ученик 7 класса IT-лицея КФУ Лузгов Тимур прошёл для участия в образовательной программе «Информатика. Юниоры» центра «Сириус» в Сочи. Поздравляем Тимура и желаем дальнейших достижений!</p>
+</div>
+      </div>
+link: https://kpfu.ru/it-liceum/nasha-gordost-388842.html

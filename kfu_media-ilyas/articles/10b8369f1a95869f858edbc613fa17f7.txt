@@ -1,0 +1,116 @@
+title: Об удаленной работе команды Центра практик Юридического факультета
+author: 
+
+ 
+ 
+          $(document).ready(
+             function (){$("#pikame").PikaChoose({carousel:true, autoPlay:false, startOn:0});});
+        
+
+         li.active{ border:3px solid #00e2df !important;}
+                #pikame li.jcarousel-item{ border: 3px solid white;}
+                .caption {color:white;}
+                .pika-stage img{ height: 568px; margin: 0px 0px; padding: 0px 0px; }
+                .clip img{cursor:pointer;} 
+        
+
+
+
+       
+        jQuery(document).ready(function() {
+ jQuery('#jcarousel').jcarousel({
+        wrap: 'circular'
+                            });
+                        });
+        
+ 
+   
+     #dim{ position:absolute; top:0; left:0; width:100%; z-index:102; background: url('https://shelly.kpfu.ru/pdf/picture/mainpage_new/dim.png'); display:none; text-align:left; }
+     .msgbox{ position:absolute; width:300px; height:200px; z-index:200; border:5px solid #222; background: #FFF; top: 50%; left: 50%; margin-top: -100px; margin-left: -150px; }
+     .msgbox img {border:none; margin:5px;}
+     .close{ top:0px; float:right; }
+  
+  
+  
+    function alert_faculty(vid){
+    var vHeight=$(window).scrollTop();
+    var vWidth=$(window).width()/2;
+    $("#dim_content").css({"top": vHeight+$(window).height()/20, "left": vWidth-440});
+    $("#dim").css("height", $(document).height());
+    $("#dim").css("width", $(document).width());
+        
+    $("#dim").fadeIn();
+    $("#popup_div").empty();
+    $.post('https://kpfu.ru/content_list_for_slider', {p_cid: vid}, 
+        function(data){
+        $("#popup_div").html(data);
+        $("#pikame").PikaChoose({carousel:true, autoPlay:false, startOn:0});});
+      
+     return false; 
+     };
+     
+    $(document).ready(function(){
+    
+     
+     
+     
+    
+
+    $(".close").click(function(){
+    $("#dim").fadeOut();
+    return false;
+    });
+    });
+
+    $(window).bind("resize", function(){
+    $("#dim").css("height", $(window).height());
+    });
+
+
+function openphoto(vid){
+ var vHeight=$(window).scrollTop();
+        var vWidth=$(window).width()/2;
+        $("#dim_content").css({"top": vHeight+$(window).height()/20, "left": vWidth-440});
+        $("#dim").css("height", $(document).height());
+        $("#dim").css("width", $(document).width());
+        
+        $("#dim").fadeIn();
+        $("#popup_div").empty();
+        $.post('https://kpfu.ru/content_list_for_slider', {p_cid: '389044', p_sub:  '220'}, 
+            function(data){
+            $("#popup_div").html(data);
+            $("#pikame").PikaChoose({carousel:true, autoPlay:false, startOn:vid});});
+          
+        return false; 
+}
+  
+
+
+
+
+
+
+
+date: 06.05.2020 00:00:00
+text: <div style="margin-top:10px;min-height:1px;">
+<img src="/portal/docs/F_1556125169/Bezymyannyj.jpg" alt="Об удаленной работе команды Центра практик Юридического факультета ,Работа из дома, удаленка, центр практик" title="Об удаленной работе команды Центра практик Юридического факультета ,Работа из дома, удаленка, центр практик" class="left_inner_width" style="min-height:1px;">
+</div><div align="justify" style="padding-top:10px;">
+<div class="visit_link">
+<p style="text-align:center"><strong>Работа из дома.</strong></p>
+
+<p style="text-align:center"><strong>Об удаленной работе команды Центра практик Юридического факультета.</strong></p>
+
+<p>            В период пандемии преподаватели, сотрудники и студенты   Юридического факультета Казанского (Приволжского) федерального университета оказались в вынужденной самоизоляции.  Команда Центра практик под руководством к.ю.н., доцента Селецкой Стеллы Борисовны также работает «на удаленке».</p>
+
+<p>            Перед Центром практик, как и перед всем факультетом, была поставлена непростая задача – в режиме он-лайн осуществлять полноценную деятельность по реализации образовательных программ Юридического факультета. Специфика работы Центра практик состоит в том, что организация прохождения практики, как составной части образовательного процесса, происходит непрерывно. Поэтому, когда в силу чрезвычайных обстоятельств, студентов не смогли принять на практику профильные организации и учреждения, Центр в короткие сроки, мобилизовав свои силы, разработал новую модель прохождения студентами и магистрантами практики в непривычных для всех условиях.</p>
+
+<p>            В настоящее время руководителями практик, преподавателями кафедр Юридического факультета, ведется полномасштабная работа по подготовке к организации и проведению всех видов практик в весенне-летний период, которая включает в себя проведение еженедельных рабочих совещаний; онлайн-конференций с обучающимися всех курсов и форм обучения; разработка методических материалов, адаптированных к дистанционному прохождению практики, а также онлайн-прием материалов практик. Созданы прямые линии общения <em>руководитель практики – будущий практикант</em> на площадках Zoom, MicrosoftTeams, WhatsUp и в социальных сетях. Не прекращает свою работу и Юридическая клиника, предоставляя правовую помощь клиентам в режиме он-лайн.</p>
+
+<p>          Таким образом, сотрудники Центра практик делают все возможное для того, чтобы студент Юридического факультета был подготовлен к прохождению практики в нетрадиционной форме.</p>
+
+<p>            Режим самоизоляции закончится, но уникальный опыт дистанционной работы останется с нами.</p>
+
+<p> </p>
+</div>
+      </div>
+link: https://kpfu.ru/law/ob-udalennoj-rabote-komandy-centra-praktik-389044.html

@@ -1,0 +1,108 @@
+title: Заключительный этап олимпиады по информатике 1 уровня для школьников организованной СПбГУ прошел в Высшей школе ИТИС
+author: 
+
+ 
+ 
+          $(document).ready(
+             function (){$("#pikame").PikaChoose({carousel:true, autoPlay:false, startOn:0});});
+        
+
+         li.active{ border:3px solid #00e2df !important;}
+                #pikame li.jcarousel-item{ border: 3px solid white;}
+                .caption {color:white;}
+                .pika-stage img{ height: 568px; margin: 0px 0px; padding: 0px 0px; }
+                .clip img{cursor:pointer;} 
+        
+
+
+
+       
+        jQuery(document).ready(function() {
+ jQuery('#jcarousel').jcarousel({
+        wrap: 'circular'
+                            });
+                        });
+        
+ 
+   
+     #dim{ position:absolute; top:0; left:0; width:100%; z-index:102; background: url('https://shelly.kpfu.ru/pdf/picture/mainpage_new/dim.png'); display:none; text-align:left; }
+     .msgbox{ position:absolute; width:300px; height:200px; z-index:200; border:5px solid #222; background: #FFF; top: 50%; left: 50%; margin-top: -100px; margin-left: -150px; }
+     .msgbox img {border:none; margin:5px;}
+     .close{ top:0px; float:right; }
+  
+  
+  
+    function alert_faculty(vid){
+    var vHeight=$(window).scrollTop();
+    var vWidth=$(window).width()/2;
+    $("#dim_content").css({"top": vHeight+$(window).height()/20, "left": vWidth-440});
+    $("#dim").css("height", $(document).height());
+    $("#dim").css("width", $(document).width());
+        
+    $("#dim").fadeIn();
+    $("#popup_div").empty();
+    $.post('https://kpfu.ru/content_list_for_slider', {p_cid: vid}, 
+        function(data){
+        $("#popup_div").html(data);
+        $("#pikame").PikaChoose({carousel:true, autoPlay:false, startOn:0});});
+      
+     return false; 
+     };
+     
+    $(document).ready(function(){
+    
+     
+     
+     
+    
+
+    $(".close").click(function(){
+    $("#dim").fadeOut();
+    return false;
+    });
+    });
+
+    $(window).bind("resize", function(){
+    $("#dim").css("height", $(window).height());
+    });
+
+
+function openphoto(vid){
+ var vHeight=$(window).scrollTop();
+        var vWidth=$(window).width()/2;
+        $("#dim_content").css({"top": vHeight+$(window).height()/20, "left": vWidth-440});
+        $("#dim").css("height", $(document).height());
+        $("#dim").css("width", $(document).width());
+        
+        $("#dim").fadeIn();
+        $("#popup_div").empty();
+        $.post('https://kpfu.ru/content_list_for_slider', {p_cid: '387015', p_sub:  '5099'}, 
+            function(data){
+            $("#popup_div").html(data);
+            $("#pikame").PikaChoose({carousel:true, autoPlay:false, startOn:vid});});
+          
+        return false; 
+}
+  
+
+
+
+
+
+date: 16.03.2020 00:00:00
+text: <div style="margin-top:10px;min-height:1px;">
+<img src="/portal/docs/F_503608416/image_15_03_20_01_39.jpg" alt="Заключительный этап  олимпиады  по информатике 1 уровня для  школьников организованной  СПбГУ прошел в Высшей школе ИТИС ,Высшая школа ИТИС, олимпиада по информатике" title="Заключительный этап  олимпиады  по информатике 1 уровня для  школьников организованной  СПбГУ прошел в Высшей школе ИТИС ,Высшая школа ИТИС, олимпиада по информатике" class="left_inner_width" style="min-height:1px;">
+</div><div align="justify" style="padding-top:10px;">
+<div class="visit_link">
+<p>15 марта Высшая школа  ИТИС предоставила свою площадку  для проведения  заключительного этапа  олимпиады  по информатике 1 уровня для  школьников организованной  СПбГУ.</p>
+<p>Олимпиада по образовательному предмету «Информатика» проводилась одновременно на площадке Санкт-Петербургского государственного университета, а также на базе партнеров в Москве, Калининграде, Новороссийске, Ростове-на-Дону, Невинномысске, Уфе, Казани, Самаре, Екатеринбурге, Челябинске и Барнауле. </p>
+<p>Напоминаем, что Казанский федеральный университет установил, что призеры олимпиад школьников при наличии у них результатов ЕГЭ не ниже 75 баллов  приравниваются  к лицам, набравшим максимальное количество баллов ЕГЭ (100 баллов) по общеобразовательному предмету .</p>
+<p>А победители всероссийских олимпиады, члены сборных команд Российской Федерации, участвовавших в международных олимпиадах получают право приема без вступительных испытаний.</p>
+<p> Подробно по ссылке<br></p>
+<p> <a data-cke-saved-href="https://admissions.kpfu.ru/sites/default/files/Priem/%D0%9F%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%203.pdf" href="https://admissions.kpfu.ru/sites/default/files/Priem/%D0%9F%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%203.pdf" target="_blank">https://admissions.kpfu.ru/sites/default/files/Priem/%D0%9F%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%203.pdf</a></p>
+<p>Олимпиадникам (победители и призеры заключительного этапа всероссийской олимпиады, олимпиад, входящих в перечень, утвержденный Минобрнауки РФ) для ускорения процедуры подтверждения получения льготы  (в случае электронной подачи документов﻿) приемная комиссия рекомендует отправить на электронную почту <a data-cke-saved-href="mailto:olimp@kpfu.ru" href="mailto:olimp@kpfu.ru" target="_blank">olimp@kpfu.ru</a> сканированную копию диплома с пометкой "олимпиада".  </p>
+<p>Подробно о ПРИЕМЕ ПОБЕДИТЕЛЕЙ И ПРИЗЕРОВ ОЛИМПИАД (БАКАЛАВРИАТ/СПЕЦИАЛИТЕТ)</p>
+<p><a data-cke-saved-href="https://admissions.kpfu.ru/priemnaa-komissia/priem-pobeditelei-i-prizerov-olimpiad-bakalavriat/specialitet" href="https://admissions.kpfu.ru/priemnaa-komissia/priem-pobeditelei-i-prizerov-olimpiad-bakalavriat/specialitet" target="_blank">https://admissions.kpfu.ru/priemnaa-komissia/priem-pobeditelei-i-prizerov-olimpiad-bakalavriat/specialitet</a>  </p>
+</div>
+      </div>
+link: https://kpfu.ru/itis/zakljuchitelnyj-etap-olimpiady-po-informatike-1.html

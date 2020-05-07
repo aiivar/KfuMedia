@@ -1,0 +1,13 @@
+title: На стыке физики, химии и софта. Как алгоритмы создают новые материалы
+author: Источник информации: https://sber.pro/publication/na-styke-fiziki-khimii-i-softa-kak-algoritmy-sozdaiut-novye-materialy
+date: 03.04.2020 00:00:00
+text: <div style="margin-top:10px;min-height:1px;">
+<img src="/portal/docs/F1188275888/saikin.jpg" alt="Статья выпускника кафедры теоретической физики опубликована на портале Cбер Про ,Статья, СберПро, Kebotix" title="Статья выпускника кафедры теоретической физики опубликована на портале Cбер Про ,Статья, СберПро, Kebotix" class="left_inner_width" style="min-height:1px;">
+</div><div align="justify" style="padding-top:10px;">
+<div class="visit_link">
+<p>На портале Сбер Про опубликована статья <strong>"На стыке физики, химии и софта. Как алгоритмы создают новые материалы" </strong>выпускника кафедры теоретической физики С.К. Сайкина. С полным текстом можно ознакомиться по <a data-cke-saved-href="https://sber.pro/publication/na-styke-fiziki-khimii-i-softa-kak-algoritmy-sozdaiut-novye-materialy" href="https://sber.pro/publication/na-styke-fiziki-khimii-i-softa-kak-algoritmy-sozdaiut-novye-materialy">ссылке.</a></p>
+<p>Семён Константинович Сайкин - выпускник кафедры теоретической физики. До недавнего времени являлся научным сотрудником Гарвардского университета, США и, по совместительству, участвовал в научных проектах кафедры теоретической физики. В настоящее время С.К. Сайкин является соучредителем и директором по науке компании <a data-cke-saved-href="https://www.kebotix.com" href="https://www.kebotix.com">Kebotix</a>, работающей в сфере применения искусственного интеллекта для разработки новых материалов.</p>
+<p>См. также <a data-cke-saved-href="https://kpfu.ru/physics/struktura/kafedry/kafedra-teoreticheskoj-fiziki/intervju-s-sotrudnikom-kafedry-teoreticheskoj.html" href="https://kpfu.ru/physics/struktura/kafedry/kafedra-teoreticheskoj-fiziki/intervju-s-sotrudnikom-kafedry-teoreticheskoj.html">интервью с С.К. Сайкиным</a>, записанное во время его приезда в октябре 2018 года. специально для студентов Института физики КФУ.</p>
+</div>
+      </div>
+link: https://kpfu.ru/physics/statya-vypusknika-kafedry-teoreticheskoj-fiziki.html

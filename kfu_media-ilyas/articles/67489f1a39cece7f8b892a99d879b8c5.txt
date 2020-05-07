@@ -1,0 +1,60 @@
+title: О рекомендацияx по предупреждению коронавирусной инфекции
+author: 
+
+
+
+Ключевые слова: 
+коронавирус, 
+рекомендации, 
+Роспотребнадзор
+
+
+
+ 30
+
+
+
+Образование
+Наука
+Руководство
+Конкурсы
+Студенческая жизнь
+Международное
+Культура
+Спорт
+Сотрудничество
+Новости приема
+
+
+    
+    
+        #mc_embed_signup{background:none; clear:left; font:14px Helvetica,Arial,sans-serif; }
+        /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+           We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+    
+    
+    
+        
+        Подпишитесь на нашу рассылку
+        
+        
+        
+        
+        
+    
+    
+    
+
+date: 22.04.2020 00:00:00
+text: <div style="margin-top:10px;min-height:1px;">
+<img src="/portal/docs/F_1616282618/Snimok.jpg" alt="О рекомендацияx по предупреждению коронавирусной инфекции ,коронавирус, рекомендации, Роспотребнадзор" title="О рекомендацияx по предупреждению коронавирусной инфекции ,коронавирус, рекомендации, Роспотребнадзор" class="left_inner_width" style="min-height:1px;">
+</div><div align="justify" style="padding-top:10px;">
+<div class="visit_link">
+<p>Материалы размещены на официальном сайте Управления Роспотребнадзора по Республике Татарстан</p>
+
+<p>(по адресу: http://16.rospotrebnadzor.ru/covid-19_svodnaya_tablica).</p>
+
+<p><a href="https://kpfu.ru/portal/docs/F372662152/17.04.2020_01_17_172_Pominov.A.I._Gafurov.I.R.pdf">Текст письма</a></p>
+</div>
+      </div>
+link: https://kpfu.ru/law/o-rekomendaciyax-po-preduprezhdeniju-388627.html

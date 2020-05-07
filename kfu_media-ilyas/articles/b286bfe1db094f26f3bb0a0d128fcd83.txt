@@ -1,0 +1,59 @@
+title: На страже информации
+author: 
+
+
+
+Персонали: Аблаев Фарид Мансурович 
+Ключевые слова: 
+Научная Россия
+
+
+
+ 55
+
+
+
+Образование
+Наука
+Руководство
+Конкурсы
+Студенческая жизнь
+Международное
+Культура
+Спорт
+Сотрудничество
+Новости приема
+
+
+    
+    
+        #mc_embed_signup{background:none; clear:left; font:14px Helvetica,Arial,sans-serif; }
+        /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+           We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+    
+    
+    
+        
+        Подпишитесь на нашу рассылку
+        
+        
+        
+        
+        
+    
+    
+    
+
+date: 24.04.2020 00:00:00
+text: <div style="margin-top:10px;min-height:1px;">
+<img src="/portal/docs/F_603697211/china1__3_.jpg" alt="На страже информации ,Научная Россия" title="На страже информации ,Научная Россия" class="left_inner_width" style="min-height:1px;">
+</div><div align="justify" style="padding-top:10px;">
+<div class="visit_link">
+<p>На портале "Научная Россия" опубликовано интервью с заведующим кафедрой теоретической кибернетики ИВМиИТ Фаридом Мансуровичем Аблаевым.</p>
+
+<ul class="menu_list">
+	<li class="li_spec"><em><strong><a href="https://scientificrussia.ru/articles/na-strazhe-informatsii" target="_blank">На страже информации</a></strong></em></li>
+</ul>
+</div>
+      </div>
+link: https://kpfu.ru/computing-technology/na-strazhe-informacii-388710.html

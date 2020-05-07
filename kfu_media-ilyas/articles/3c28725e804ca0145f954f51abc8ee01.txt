@@ -1,0 +1,90 @@
+title: Спасибо всем медицинским работникам, которые стоят на страже здоровья нашей страны в такое непростое время!
+author: 
+
+
+  
+                        
+                            
+                              
+                              
+                            
+                        
+                      
+Скачать видео (18 Мб)
+
+
+
+Ключевые слова: 
+Высшая школа ИТИС, 
+ИТИС в домике, 
+stay home, 
+Здоровый марафон
+
+
+
+ 31
+
+
+      
+      function like_it(vid,v_ball,v_com){
+      
+       $.post("https://kpfu.ru/like_it", {p_id: vid,p_like: 1,p_ball: v_ball, p_comment_id:v_com} , function(data) {
+        $('#span_like'+vid+v_com).empty();
+        $('#span_likem'+vid+v_com).empty();
+        $('#span_like'+vid+v_com).html(data);
+      
+        });
+      }
+            
+
+ 
+ 
+
+     
+     
+
+
+Образование
+Наука
+Руководство
+Конкурсы
+Студенческая жизнь
+Международное
+Культура
+Спорт
+Сотрудничество
+Новости приема
+
+
+    
+    
+        #mc_embed_signup{background:none; clear:left; font:14px Helvetica,Arial,sans-serif; }
+        /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+           We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+    
+    
+    
+        
+        Подпишитесь на нашу рассылку
+        
+        
+        
+        
+        
+    
+    
+    
+
+date: 16.04.2020 00:00:00
+text: <div style="margin-top:10px;min-height:1px;">
+<img src="/portal/docs/F1998105601/photo_2020_04_16_16_09_17.jpg" alt="Спасибо всем медицинским работникам, которые стоят на страже здоровья нашей страны в такое непростое время! ,Высшая школа ИТИС, ИТИС в домике, stay home, Здоровый марафон" title="Спасибо всем медицинским работникам, которые стоят на страже здоровья нашей страны в такое непростое время! ,Высшая школа ИТИС, ИТИС в домике, stay home, Здоровый марафон" class="left_inner_width" style="min-height:1px;">
+</div><div align="justify" style="padding-top:10px;">
+<div class="visit_link">
+<p>Студенты Высшей школы ИТИС приняли эстафету "Здоровый марафон" и хотят выразить огромную благодарность всем медицинским работникам, которые стоят на страже здоровья нашей страны в такое непростое время! СПАСИБО!<br>
+⠀<br>
+Эстафету здоровья передаем <a href="https://kpfu.ru/math">Институту математики и механики им. Н.И.Лобачевского</a> <br>
+⠀<br>
+ </p>
+</div>
+      </div>
+link: https://kpfu.ru/itis/spasibo-vsem-medicinskim-rabotnikam-kotorye-388433.html

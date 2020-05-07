@@ -1,0 +1,109 @@
+title: КФУ дистанционно повышает квалификацию нефтяников России в период самоизоляции
+author: 
+
+ 
+ 
+          $(document).ready(
+             function (){$("#pikame").PikaChoose({carousel:true, autoPlay:false, startOn:0});});
+        
+
+         li.active{ border:3px solid #00e2df !important;}
+                #pikame li.jcarousel-item{ border: 3px solid white;}
+                .caption {color:white;}
+                .pika-stage img{ height: 568px; margin: 0px 0px; padding: 0px 0px; }
+                .clip img{cursor:pointer;} 
+        
+
+
+
+       
+        jQuery(document).ready(function() {
+ jQuery('#jcarousel').jcarousel({
+        wrap: 'circular'
+                            });
+                        });
+        
+ 
+   
+     #dim{ position:absolute; top:0; left:0; width:100%; z-index:102; background: url('https://shelly.kpfu.ru/pdf/picture/mainpage_new/dim.png'); display:none; text-align:left; }
+     .msgbox{ position:absolute; width:300px; height:200px; z-index:200; border:5px solid #222; background: #FFF; top: 50%; left: 50%; margin-top: -100px; margin-left: -150px; }
+     .msgbox img {border:none; margin:5px;}
+     .close{ top:0px; float:right; }
+  
+  
+  
+    function alert_faculty(vid){
+    var vHeight=$(window).scrollTop();
+    var vWidth=$(window).width()/2;
+    $("#dim_content").css({"top": vHeight+$(window).height()/20, "left": vWidth-440});
+    $("#dim").css("height", $(document).height());
+    $("#dim").css("width", $(document).width());
+        
+    $("#dim").fadeIn();
+    $("#popup_div").empty();
+    $.post('https://kpfu.ru/content_list_for_slider', {p_cid: vid}, 
+        function(data){
+        $("#popup_div").html(data);
+        $("#pikame").PikaChoose({carousel:true, autoPlay:false, startOn:0});});
+      
+     return false; 
+     };
+     
+    $(document).ready(function(){
+    
+     
+     
+     
+    
+
+    $(".close").click(function(){
+    $("#dim").fadeOut();
+    return false;
+    });
+    });
+
+    $(window).bind("resize", function(){
+    $("#dim").css("height", $(window).height());
+    });
+
+
+function openphoto(vid){
+ var vHeight=$(window).scrollTop();
+        var vWidth=$(window).width()/2;
+        $("#dim_content").css({"top": vHeight+$(window).height()/20, "left": vWidth-440});
+        $("#dim").css("height", $(document).height());
+        $("#dim").css("width", $(document).width());
+        
+        $("#dim").fadeIn();
+        $("#popup_div").empty();
+        $.post('https://kpfu.ru/content_list_for_slider', {p_cid: '388556', p_sub:  '215'}, 
+            function(data){
+            $("#popup_div").html(data);
+            $("#pikame").PikaChoose({carousel:true, autoPlay:false, startOn:vid});});
+          
+        return false; 
+}
+  
+
+
+
+
+
+
+
+
+date: 21.04.2020 00:00:00
+text: <div align="justify" style="padding-top:10px;">
+<div class="visit_link">
+<p>Руководители и специалисты нефтегазовой отрасли России приступили к дистанционному обучению по четырем образовательным программам в рамках повышения квалификации в Центре дополнительного образования, менеджмента качества и маркетинга Института геологии и нефтегазовых технологий Казанского федерального университета.</p>
+<p>Центр имеет большой опыт в области дистанционного образования, а все благодаря хорошей команде, созданной инфраструктуре и большому спектру онлайн программ. Ранее Центр регулярно проводил очные курсы, вебинары по заказу промышленных компаний, производил новые онлайн продукты, а сегодня в условиях самоизоляции, впервые традиционное открытие сразу четырех программ прошло в режиме видеоконференцсвязи.</p>
+<p>Директор ЦДОМКиМ <strong>Ильдус Чукмаров</strong> приветствовал каждого слушателя, ознакомил с форматом обучения, расписанием, лекторами и рассказал об истории Казанского федерального университета, достижениях современного периода и пригласил слушателей, по окончании режима самоизоляции, посетить университет очно.</p>
+<p>27 сотрудников структурных подразделений ПАО «НК «Роснефть» и АО «Зарубежнефть» в течение пяти дней будут обучаться по программам: «Литолого-фациальный анализ нефтегазоносных толщ», «Обработка и интерпретация данных электрического и акустического сканирования скважин», «Применение  глобальных навигационных спутниковых систем (ГЛОНАСС/GPS) в геодезии, картографии и навигации» и «Добыча сверхвязких нефтей».</p>
+<p><em>«В такие непростые для отрасли периоды, наши крупнейшие партнеры и заказчики в одном лице – «Роснефть», «Татнефть» и «Зарубежнефть» продолжают развивать свой персонал и вкладывать в их знания и своё будущее. Отрадно, что наши совместные образовательные и научно-исследовательские проекты продолжаются, а значит, мы и топливно-энергетический комплекс страны продолжают работать, несмотря на трудности»</em>, <em>–</em> отметил директор Центра дополнительного образования, менеджмента качества и маркетинга Ильдус Чукмаров.</p>
+<p>В реализации программ традиционно примут участие ведущие преподаватели Института геологии и нефтегазовых технологий, Института физики, а также эксперты компаний-партнёров – ПАО «Татнефть», ООО «ТНГ-Групп»,  ООО «Нефть XXI век» и директор ООО «Эридан». Слушателей ждут вебинары, специальные электронные образовательные ресурсы на площадке Moodle, входное, промежуточное и итоговое тестирования. А также обязательное анкетирование удовлетворенности слушателей проведенными курсами.</p>
+<p>Период самоизоляции может стать хорошим временем для развития персонала и личных компетенций. Именно поэтому вслед за крупнейшими образовательными площадками ЦДОМКиМ открыл свои дистанционные <a data-cke-saved-href="http://cdogeo.ru/individualnaya-traektoriya/" href="http://cdogeo.ru/individualnaya-traektoriya/">образовательные модули по индивидуальной траектории</a> обучения для всех совершенно бесплатно. Желающие получить соответствующий документ смогут оплатить обучение, когда у них появится возможность, а вот получить новые знания можно прямо сейчас. Также в бесплатном доступе <a data-cke-saved-href="https://www.youtube.com/channel/UCpBYO1dbXH2QRP13SpBeJ5Q" href="https://www.youtube.com/channel/UCpBYO1dbXH2QRP13SpBeJ5Q">на youtube канале Центра</a> размещены уникальные видеоуроки от преподавателей КФУ и его партнёров. Кроме того, Центр разработал новые полностью дистанционные программы профессиональной переподготовки и запустил специальную акцию.</p>
+<p><em>«Мы понимаем, что у многих сейчас нет возможности платить полную стоимость обучения, а также приезжать в КФУ на очные сессии, поэтому мы запустили акцию на весь период самоизоляции – обучение по программам профессиональной переподготовки с получением диплома КФУ полностью <a data-cke-saved-href="http://cdogeo.ru/kursy_skill/programmy-professionalnoj-perepodgotovki/" href="http://cdogeo.ru/kursy_skill/programmy-professionalnoj-perepodgotovki/">дистанционно с 50% скидкой</a>! Такого еще не было за всю историю существования нашего Центра!»</em>, – добавил Ильдус Адгамович.</p>
+<p>Стоит отметить, что на данный момент более 200 человек уже воспользовались акцией и обучаются в ЦДОМКиМ абсолютно бесплатно, либо с максимальной скидкой. А youtube канал перешагнул порог в 1300 подписчиков и 64400 просмотров.</p>
+</div>
+      </div><div align="right" style="margin-bottom:10px;">Источник информации: Зиннатуллина Лейсан</div>
+link: https://kpfu.ru/geology-oil/kfu-distancionno-povyshaet-kvalifikaciju-388556.html

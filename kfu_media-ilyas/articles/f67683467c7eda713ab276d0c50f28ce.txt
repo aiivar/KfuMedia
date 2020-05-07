@@ -1,0 +1,108 @@
+title: 5 марта состоялся семинар кафедры алгебры и математической логики
+author: 
+
+ 
+ 
+          $(document).ready(
+             function (){$("#pikame").PikaChoose({carousel:true, autoPlay:false, startOn:0});});
+        
+
+         li.active{ border:3px solid #00e2df !important;}
+                #pikame li.jcarousel-item{ border: 3px solid white;}
+                .caption {color:white;}
+                .pika-stage img{ height: 568px; margin: 0px 0px; padding: 0px 0px; }
+                .clip img{cursor:pointer;} 
+        
+
+
+
+       
+        jQuery(document).ready(function() {
+ jQuery('#jcarousel').jcarousel({
+        wrap: 'circular'
+                            });
+                        });
+        
+ 
+   
+     #dim{ position:absolute; top:0; left:0; width:100%; z-index:102; background: url('https://shelly.kpfu.ru/pdf/picture/mainpage_new/dim.png'); display:none; text-align:left; }
+     .msgbox{ position:absolute; width:300px; height:200px; z-index:200; border:5px solid #222; background: #FFF; top: 50%; left: 50%; margin-top: -100px; margin-left: -150px; }
+     .msgbox img {border:none; margin:5px;}
+     .close{ top:0px; float:right; }
+  
+  
+  
+    function alert_faculty(vid){
+    var vHeight=$(window).scrollTop();
+    var vWidth=$(window).width()/2;
+    $("#dim_content").css({"top": vHeight+$(window).height()/20, "left": vWidth-440});
+    $("#dim").css("height", $(document).height());
+    $("#dim").css("width", $(document).width());
+        
+    $("#dim").fadeIn();
+    $("#popup_div").empty();
+    $.post('https://kpfu.ru/content_list_for_slider', {p_cid: vid}, 
+        function(data){
+        $("#popup_div").html(data);
+        $("#pikame").PikaChoose({carousel:true, autoPlay:false, startOn:0});});
+      
+     return false; 
+     };
+     
+    $(document).ready(function(){
+    
+     
+     
+     
+    
+
+    $(".close").click(function(){
+    $("#dim").fadeOut();
+    return false;
+    });
+    });
+
+    $(window).bind("resize", function(){
+    $("#dim").css("height", $(window).height());
+    });
+
+
+function openphoto(vid){
+ var vHeight=$(window).scrollTop();
+        var vWidth=$(window).width()/2;
+        $("#dim_content").css({"top": vHeight+$(window).height()/20, "left": vWidth-440});
+        $("#dim").css("height", $(document).height());
+        $("#dim").css("width", $(document).width());
+        
+        $("#dim").fadeIn();
+        $("#popup_div").empty();
+        $.post('https://kpfu.ru/content_list_for_slider', {p_cid: '386612', p_sub:  '217'}, 
+            function(data){
+            $("#popup_div").html(data);
+            $("#pikame").PikaChoose({carousel:true, autoPlay:false, startOn:vid});});
+          
+        return false; 
+}
+  
+
+
+
+
+
+
+
+date: 10.03.2020 00:00:00
+text: <div style="margin-top:10px;min-height:1px;">
+<img src="/portal/docs/F646352496/1.jpg" alt="5 марта состоялся семинар кафедры алгебры и математической логики ,семинар, кафедра алгебры и математической логики, наука, Бызов Виктор Александрович" title="5 марта состоялся семинар кафедры алгебры и математической логики ,семинар, кафедра алгебры и математической логики, наука, Бызов Виктор Александрович" class="left_inner_width" style="min-height:1px;">
+</div><div align="justify" style="padding-top:10px;">
+<div class="visit_link">
+<p style="text-align:justify">В четверг 5 марта в 610 аудитории состоялся <a href="https://kpfu.ru/math-d/strctre/otdeleniya-i-kafedry/alg-n-math-d-log/obschij-seminar">семинар кафедры алгебры и математической логики</a>.</p>
+
+<p style="text-align:justify">В рамках семинара с докладом на тему «Исследование свойств орбит преобразования Донахью» выступил старший преподаватель <a href="https://www.vyatsu.ru/studentu-1/nauka-i-praktika/institut-matematiki-i-informatsionnyih-sistem/kafedra-fundamental-noy-informatiki-i-prikladnoy-m-1">кафедры прикладной математики и информатики</a> Вятского государственного университета (ВятГУ, г. Киров) <a href="http://www.mathnet.ru/php/person.phtml?option_lang=rus&amp;personid=43594"><strong>Бызов Виктор Александрович</strong></a>. </p>
+
+<p style="text-align:justify">Доклад был посвящен рассмотрению перечислительных задач, связанных с преобразованием Донахью. Были исследованы две группы вопросов. Первая группа связана с перечислением фрагментов орбит преобразования, называемых «дугами». Вторая группа вопросов была посвящена нахождению количества вершин в графах поворотов — специфическом семействе графов, представляющем собой «аппроксимацию» преобразования Донахью. Основные результаты были сформулированы в виде производящих функций и соответствующих асимптотик.</p>
+
+<p style="text-align:justify">Помимо этого, в докладе была представлена динамическая система, действующая на комбинаторных интерпретациях чисел Каталана. Описаны два новых карусельных эффекта (для триад и ростков), первый из которых использован для перехода от локального свойства деревьев (отсутствие триад определённых типов) к некоторым глобальным свойствам орбит. Показано, что отмеченный эффект носит массовый характер. Кроме того, построено несколько новых ручных классов орбит, в том числе не только с постоянными длинами орбит, но и с растущими как O(n^2).</p>
+</div>
+      </div>
+link: https://kpfu.ru/math/5-marta-sostoyalsya-seminar-kafedry-algebry-i.html
